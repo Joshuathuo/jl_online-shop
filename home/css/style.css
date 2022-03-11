@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#topheader {
+    background-color: #2C3E50;
+    border-bottom: 2px green solid;
+    margin-right: 0;
+    padding-right: 5px;
+    text-align: right;
+}
+
+#topheader a {
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.bottomheader {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#navbar {
+    overflow: hidden;
+}
+
+#navbar a {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: #04AA6D;
+    border-radius: 5px;
+    color: white;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+
+/* Start footer*/
+
+.full_footer {
+    background-color: #2C3E50;
+}
+
+.top-footer p {
+    color: white;
+}
+
+.top-footer a {
+    color: white;
+    font-weight: 600;
+}
+
+.top-footer h3 {
+    color: white;
+}
+
+.bottomfooter {
+    background-color: rgb(18, 19, 19);
+}
+
+.bottomfooter p {
+    color: white;
+}
+
+
+/* End footer */
+
+
+/* Start Home page section top part */
+
+.top-hero-section {
+    background-color: #487eb0;
+    color: white;
+}
+
+.top-hero-section a {
+    color:pink;
+    font-weight: 600;
+}
+
+.section2 a {
+    border-radius: 5px;
+    background-color: rgb(230, 225, 225);
+    text-decoration: none;
+    color: black;
+}
+
+
+/*.section2 a:hover {
+    background-color: rgb(85, 84, 84);
+}
+*/
+
+/** Missing **/
+
+/*End  Home page section top part */
+/* reguirement section 3*/
+.requirenment-section{
+    background-color: #004d80;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* end of requirement section 3*/
+
+/*section 4 About us section */
+
+/* Section 4 about us */
+
+/* Section 5 Subscripion */
+.homeSubscription{
+    background-color: #004d80;
+    color: white;
+    
+}
+
+
+
+.homeSubscription .form-control{
+    height: 50px;
+border-color: transparent;
+border-radius: 20px 0 0 20px;
+    color: white;
+    
+}
+
+.homeSubscription .btn{
+    background-color: #2C3E50;
+    height: 50px;
+border-color: transparent;
+border-radius: 0 20px 20px 0;
+    color: white;
+    
+}
+/* end of section 5 */
+
+/* section 7 */
+.trusted-clients{
+    background-color:( #949393);
+}
+
+/* end of section 7 */
+
+/* .............................................................
+...............................................................
+.................END OF HOME BAGE.............................
+.................................................................
+................................................................ */
+
+/* .............................................................
+....................Start of about us bage......................
+................................................................*/
+.breadcrumbs-section{
+    background-color: silver;
+}
+.breadcrumbs-section a{
+    text-decoration: none;
+   
+}
+
+.breadcrumbs-section a.active{
+    background-color: #04AA6D;
+    border-radius: 5px;
+    color: white;
+}
+
+.breadcrumbs-section a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+    color: black;
+}
+
+
+/* .............................................................
+...............................................................
+.................END OF about us.............................
+.................................................................
+................................................................ */
+
+/* .............................................................
+....................Start of contact us bage......................
+................................................................*/
+
+.address{
+    font-weight: 600;
+}
+
+/* .............................................................
+...............................................................
+.................END OF CONTACT US.............................
+.................................................................
+................................................................ */
+
+.errors
+{
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid red;
+    color: royalblue;
+    background: salmon;
+    border-radius: 5px;
+    text-align: left;
+}
+
+
+/* Login */
+
+.login-register-text
+{
+    color: #0001;
+    font-weight: 500;
+}
